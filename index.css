@@ -1,19 +1,21 @@
-.first{
+.first {
     justify-content: center;
     justify-content: space-around;
     background-color: rgb(204, 175, 175);
     padding-top: 20px;
     border-radius: 30px;
 }
-.seconddiv{
-text-align: center;
+
+.seconddiv {
+    text-align: center;
     /* justify-content: space-around; */
     background-color: black;
     padding-top: 20px;
     color: white;
     padding-bottom: 50px;
 }
-.contactme{
+
+.contactme {
     background-color: red;
     text-align: center;
     border-radius: 30px;
@@ -21,85 +23,96 @@ text-align: center;
     margin-right: 550px;
     margin-top: 20px;
 }
-img{
+
+img {
     height: 250px;
     width: 250px;
     margin-top: 10px;
     border-radius: 20px;
     margin-left: 300px;
 }
-.imgblock{
+
+.imgblock {
     background-color: black;
     padding-bottom: 40px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-.aboutme{
+
+.aboutme {
     margin-top: 40px;
     padding-bottom: 20px;
     text-align: center;
     color: rgb(218, 179, 131);
-    }
-    .hipicture{
-        border-radius: 120px;
-        margin-left: 530px;
-    }
-    .hidon{
-        margin-bottom: 60px;
-        text-align: center;
-    }
-    .have{
-        text-align: center;
-    }
-    .havepics{
+}
+
+.hipicture {
+    border-radius: 120px;
+}
+
+.hidon {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.have {
+    text-align: center;
+}
+
+.havepics {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    /* text-align: center; */
+    border-radius: 100px;
+}
+
+.bottom {
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+}
+
+.coolproject {
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+
+@media(max-width:768px) {
+    .havepics {
         width: 80px;
         height: 80px;
         margin-left: 20px;
         /* text-align: center; */
         border-radius: 100px;
-    }
-    .bottom{
-        padding-bottom: 40px;
-        background-color: black;
-        color: white;
-    }
-    .coolproject{
-        background-color: black;
-        color: white;
-        padding-bottom: 70px;
-        border-top-right-radius: 40px;
-        border-top-left-radius:40px ;
+
     }
 
-
-@media(max-width:768px){
-    .havepics{
-        width: 80px;
-        height: 80px;
-        margin-left: 20px;
-        /* text-align: center; */
-        border-radius: 100px;
-    
-    }
-    .have{
+    .have {
         text-align: center;
     }
-    .hidon{
+
+    .hidon {
         margin-bottom: 60px;
         text-align: center;
     }
-    .hipicture{
-        margin-left: 260px;
+
+    .hipicture {
         border-radius: 120px;
     }
 
-    .aboutme{
+    .aboutme {
         margin-top: 40px;
         padding-bottom: 20px;
         text-align: center;
         color: rgb(218, 179, 131);
-        }
-    .imgblock{
+    }
+
+    .imgblock {
         display: block;
         background-color: black;
         padding-bottom: 40px;
@@ -108,28 +121,31 @@ img{
 
     }
 
-    .imgp{
-        margin-left: 220px;
+    .imgp {
+        margin-left: 20px;
         height: 320px;
         width: 300px;
         margin-top: 10px;
         border-radius: 20px;
     }
-    .contactme{
+
+    .contactme {
         background-color: red;
         text-align: center;
-        margin-left:60px;
+        margin-left: 60px;
         margin-right: 60px;
         border-radius: 10px;
     }
-    .firs{
+
+    .firs {
         justify-content: center;
         justify-content: space-between;
         /* background-color: rgb(204, 175, 175); */
         padding-top: 20px;
-         border-radius: 20px;
-    } 
-    .seconddiv{
+        border-radius: 20px;
+    }
+
+    .seconddiv {
         text-align: center;
         color: white;
         background-color: black;
@@ -137,4 +153,4 @@ img{
         border-radius: 40px;
         padding-bottom: 30px;
     }
-    }
+}
